@@ -17,35 +17,67 @@ nav>ul{
     flex-direction: row;
 }
 main>section{
-    
     background-image: url("../img/img-3.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
+
 }
+
+
+
+
+
 main>div{
     display: flex;
-    background-color: lightseagreen;
     margin: 20px;
-    border-radius: 30px;
+    justify-content: space-evenly;
 }
 .section1{
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 400px;
-    margin: 20px;
+    flex-wrap: wrap;
+    width: 40rem;
+    height: 300px;
+    margin: -40px 10px 10px 10px;
+    background-color: lightseagreen;
+    border-radius: 10px;
 }
 .section2{
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 400px;
+    flex-wrap: wrap;
+    width: 40rem;
+    height: 300px;
+    margin: -40px 10px 10px 10px;
+    background-color: lightseagreen;
+    border-radius: 10px;
+}
+main>div>section>h2{
     margin: 20px;
+    font-size: 30px;
+    color: white;
+}
+main>div>section>p{
+    margin: 20px;
+    color: white;
+    width: 20rem;
+}
+main>div>section>button{
+    margin: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: grey;
+    border-style: solid 10px;
+    background-color: rgb(27, 197, 174);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
 }
 main>div>section>img{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 30px;
     background-color: rgb(190, 190, 190);
     margin: 20px;
