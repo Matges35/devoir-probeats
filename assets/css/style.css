@@ -1,8 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header{
     display: flex;
     flex-direction: row;
+    background-color: aqua;
 }
 nav{
     display: flex;
     flex-direction: row;
+}
+nav>ul{
+    display: flex;
+    flex-direction: row;
+}
+main>section{
+    
+    background-image: url("../img/img-3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
 }
