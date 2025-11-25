@@ -18,8 +18,9 @@ nav>ul{
 }
 main>section{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
     background-image: url("../img/img-3.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,7 +28,7 @@ main>section{
     height: 600px;
     margin: 5px;
 }
-main>section>h1{
+main>section>article>h1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +40,7 @@ main>section>h1{
     color: rgb(0, 0, 0);
     background-color: seashell;
 }
-main>section>p{
+main>section>article>p{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,7 +52,7 @@ main>section>p{
     color: rgb(0, 0, 0);
  
 }
-main>section>span{
+main>section>article>span{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +63,7 @@ main>section>span{
     margin: 10px 0px 0px 30px;
     color: rgb(0, 0, 0);
 }
-main>section>button{
+main>section>article>button{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,7 +102,7 @@ main>div{
     flex-wrap: wrap;
     width: 40rem;
     height: 300px;
-    margin: -40px 10px 10px 10px;
+    margin: -100px 10px 10px 10px;
     background-color: lightseagreen;
     border-radius: 10px;
 }
@@ -112,7 +113,7 @@ main>div{
     flex-wrap: wrap;
     width: 40rem;
     height: 300px;
-    margin: -40px 10px 10px 10px;
+    margin: -100px 10px 10px 10px;
     background-color: lightseagreen;
     border-radius: 10px;
 }
