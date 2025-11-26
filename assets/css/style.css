@@ -11,11 +11,11 @@ header>nav>ul{
     background-color: aqua;
     list-style-type: none;
     height: 100px;
-    margin: 5px;
+    margin: 10px;
 }
-header>nav>ul>img{
-    width: 25%;
-    height: 50px;
+header>nav>ul>li>img{
+    width: 75%;
+    height: 50%;
     margin-left: 20px;
 }
 header>nav>ul>li>a{
