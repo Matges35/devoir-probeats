@@ -6,25 +6,31 @@
 header>nav>ul{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    background-color: aqua;
+    background-color: #7EDCE1;
     list-style-type: none;
     height: 100px;
     margin: 10px;
+
 }
 header>nav>ul>li>img{
-    width: 75%;
+    width: 20rem;
     height: 50%;
     margin-left: 20px;
 }
 header>nav>ul>li>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 25%;
     text-decoration: none;
-    color: black;
-    width: 50px;
+    color: #292a2d;
+    width: 6rem;
     height: 30px;
-    background-color: lime;
+    border: solid 2px grey;
+    border-radius: 5%;
+    background-color: #41B4BB;
     padding: 10px;
 }
 main>section{
@@ -48,8 +54,8 @@ main>section>article>h1{
     width: 200px;
     margin: 20px 0px 0px 30px;
     font-size: 30px;
-    color: rgb(0, 0, 0);
-    background-color: seashell;
+    color: #292a2d;
+    background-color: #B6A299;
 }
 main>section>article>p{
     display: flex;
@@ -58,9 +64,9 @@ main>section>article>p{
     border-radius: 5px;
     height: 50px;
     width: 300px;
-    background-color: seashell;
+    background-color: #B6A299;
     margin: 10px 0px 0px 30px;
-    color: rgb(0, 0, 0);
+    color: #292a2d;
  
 }
 main>section>article>span{
@@ -70,9 +76,9 @@ main>section>article>span{
     border-radius: 5px;
     height: 50px;
     width: 80px;
-    background-color: rgb(40, 140, 158);
+    background-color: #7EDCE1;
     margin: 10px 0px 0px 30px;
-    color: rgb(0, 0, 0);
+    color: #292a2d;
 }
 main>section>article>button{
     display: flex;
@@ -81,17 +87,20 @@ main>section>article>button{
     border-radius: 5px;
     height: 50px;
     width: 150px;
-    background-color: rgb(27, 197, 174);
+    background-color: #41B4BB;
     margin: 10px 0px 300px 30px;
     color: rgb(255, 255, 255);
     font-weight: bold;
     cursor: pointer;
 }
+main>section>article>button:hover{
+    background-color: #7EDCE1;
+}
 main>section>img{
     width: 15rem;
     height: 18rem;
     border-radius: 30px;
-    border: solid 2px rgb(0, 0, 0);
+    border: solid 2px #B6A299;
     background-color: rgb(255, 255, 255);
     margin: 20px;
 }
@@ -109,13 +118,13 @@ main>div{
     flex-wrap: wrap;
     width: 40rem;
     height: 300px;
-    margin: -100px 10px 10px 10px;
+    margin: -50px 10px 10px 10px;
     background-color: lightseagreen;
     border-radius: 10px;
 }
 /**********enceinte salon**********/
 main>div{
-    background-color: aqua;
+    background-color: #7EDCE1;
 }
 .section2{
     display: flex;
@@ -123,7 +132,7 @@ main>div{
     flex-wrap: wrap;
     width: 40rem;
     height: 300px;
-    margin: -100px 10px 10px 10px;
+    margin: -50px 10px 10px 10px;
     background-color: lightseagreen;
     border-radius: 10px;
 }
@@ -131,58 +140,83 @@ main>div>section>h2{
     margin: 20px;
     font-size: 30px;
     color: white;
+    width: 50%;
 }
 main>div>section>p{
     margin: 20px;
     color: white;
-    width: 20rem;
+    width: 50%;
 }
 main>div>section>button{
     margin: 20px;
     width: 150px;
     height: 40px;
     border-radius: 5px;
-    border-color: grey;
-    background-color: rgb(27, 197, 174);
+    border-color: #B6A299;
+    background-color: #41B4BB;
     color: rgb(255, 255, 255);
     font-weight: bold;
     cursor: pointer;
 }
 main>div>section>img{
-    width: 11rem;
-    height: 11rem;
+    width: 40%;
+    height: 100%;
     border-radius: 30px;
     background-color: rgb(255, 255, 255);
-    margin: 20px;
+    margin: 10px 10px 10px 10px;
+}
+.div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
 }
 .div>section{
-    background-color: white;
+    background-color: #B6A299;
     margin: 10px;
     border-radius: 5px;
 }
+.article{
+    position: relative;
+}
+.article>a>img{
+    width: 3rem;
+    height: 3rem;
+    margin: 0px 20px 0px 20px;
+}
+.article a:nth-child(2){
+    position :absolute;
+    right : 0;
+    opacity: 0;
+} 
+.article:hover a:nth-child(2){
+    opacity: 1;
+} 
+.div>section>article,span{
+    margin: 10px 0px 5px 10px;
+}
 .div>section>p{
-    color: black;
-    background-color: white;
+    color: #292a2d;
+    background-color: #B6A299;
+    margin: 5px 0px 10px 10px;
 }
 .div>section>img{
     width: 2rem;
     height: 2rem;
     background-color: rgb(255, 255, 255);
 }
-
-
-
 /********footer**********/
 footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 80px;
-    background-color: aqua;
+    background-color: #7EDCE1;
     margin: 10px;
     padding: 0rem 5rem 0rem 5rem;
 }footer>a{
     text-decoration: none;
-    color: black;
+    color: #292a2d;
 
 }
