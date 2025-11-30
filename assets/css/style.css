@@ -590,3 +590,116 @@
     color: #292a2d;
     font-size: 12px;
 }
+/**********contact**********/
+.contact>header{
+    width: 100%;
+    height: 110px;
+    background-color: #c4c2c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 5px black;
+}
+.contact>header>nav
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact>header>nav>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #c4c2c2;
+    list-style-type: none;
+    width: 100%;
+    height: 100px;
+}
+.contact>header>nav>ul>li{
+    width: 25%;
+    height: 40%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.contact>header>nav>ul>li>a{
+    background-color: white;
+    color: #292a2d;
+    text-decoration: none;
+    width: 75%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact>main{
+    width: 100%;
+    height: 50rem;
+}
+.contact>main>section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 75%;
+}
+.formulaire,.maps,.faq1,.faq2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #292a2d;
+    width: 50%;
+    height: 50%;
+}
+.maps,.faq1{
+    background-color: #c4c2c2;
+}
+.formulaire,.maps{
+    height: 70%;
+}
+.faq1,.faq2{
+    height: 30%;
+}
+.contact>main>article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+}
+.contact>main>section>article>a{
+    text-decoration: none;
+    color: #292a2d;
+    background-color: white;
+    padding : 10px;
+    margin-top: 20px;
+}
+.contact>main>article>h3{
+    background-color: #c4c2c2;
+    color: #292a2d;
+    width: 25%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact>footer{
+    width: 100%;
+    height: 80px;
+    background-color: #c4c2c2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact>footer>a{
+    text-decoration: none;
+    color: #292a2d;
+    font-size: 12px;
+}
