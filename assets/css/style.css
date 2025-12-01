@@ -1,7 +1,15 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+@font-face {
+    font-family: "Barlow";
+    src: url("../fonts/Barlow-Regular.ttf") format("truetype"),
+         url("../fonts/Barlow-Bold.ttf") format("truetype"),
+         url("../fonts/Barlow-Thin.ttf") format("truetype"),
+         url("../fonts/Barlow-Italic.ttf") format("truetype");
 }
 .index{
     background-color: #B6A299;
